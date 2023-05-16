@@ -1,0 +1,20 @@
+.badge {
+  line-height: 1.25rem;
+  color: var(--dark-base-color);
+  display: inline-flex;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 18px;
+
+  &.top-left {
+    border-top-left-radius: 0;
+  }
+
+  &.bottom-left {
+    border-bottom-left-radius: 0;
+  }
+
+  &.is-accent {
+    background-color: var(--accent-base-color);
+  }
+}
