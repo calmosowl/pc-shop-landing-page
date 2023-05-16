@@ -2,6 +2,10 @@
   display: flex;
   gap: 14px;
 
+  &.has-gap {
+    gap: 24px;
+  }
+
   .button, .icon-button {
     flex: 1;
   }
