@@ -1,0 +1,27 @@
+.navbar {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-brand {
+  margin-right: 24px;
+
+  a {
+    display: block;
+  }
+}
+
+.navbar-toggler {
+  display: none;
+}
