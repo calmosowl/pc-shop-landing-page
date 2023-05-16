@@ -1,0 +1,31 @@
+.ellipse-group {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 510px;
+  max-height: 510px;
+  
+  filter: blur(82px);
+
+  .ellipse {
+    width: 67%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .is-primary {
+    background-color: var(--primary-base-color);
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .is-accent {
+    background-color: var(--accent-base-color);
+    opacity: 0.2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
