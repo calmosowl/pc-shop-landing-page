@@ -1,0 +1,34 @@
+.default-dl {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.default-dl-header {
+  font-size: 2rem;
+  line-height: 2.1875rem;
+  font-weight: 700;
+  color: var(--white-base-color);
+}
+
+.default-dl-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.default-dl-cell {
+  flex: 1 0 calc(50% - 16px);
+}
+
+.default-dl-dt {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.default-dl-dt {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--white-base-color);
+}
