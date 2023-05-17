@@ -363,6 +363,7 @@ a:hover {
   background-color: transparent;
   border: 0 none;
   border-radius: 12px;
+  cursor: pointer;
 }
 .icon-button.is-dark {
   background-color: var(--dark-base-color);
@@ -499,9 +500,10 @@ a:hover {
   display: flex;
   justify-content: center;
   padding-bottom: 46px;
-  flex-basis: 50%;
+  flex-basis: 55%;
 }
 .hero-slide-image img {
+  width: 240px;
   z-index: 2;
 }
 
@@ -522,7 +524,7 @@ a:hover {
   align-items: center;
   gap: 8px;
   position: absolute;
-  bottom: 0;
+  bottom: 40px;
 }
 
 @media (max-width: 1200px) {
