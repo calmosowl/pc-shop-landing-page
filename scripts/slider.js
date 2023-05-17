@@ -54,7 +54,7 @@ export function slider(slide, wrapper, field, indicator) {
   })
 
   let isAnimating = false;
-  // setInterval(slideDown, 5000)
+  setInterval(slideDown, 5000)
 
   function slideUp() {
     if (slideIndex == 1) {
