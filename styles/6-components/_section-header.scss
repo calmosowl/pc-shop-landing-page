@@ -1,0 +1,23 @@
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+
+  h2 {
+    width: min-content;
+  }
+
+  .slider-counter {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-counter {
+    display: none;
+  }
+}
