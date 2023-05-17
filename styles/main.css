@@ -5,7 +5,6 @@
  * Use a better box model (opinionated).
  */
 @import "../../fonts/fonts.css";
-@import "../../fonts/pc-shop-v1.0/style.css";
 html {
   box-sizing: border-box;
 }
