@@ -101,11 +101,11 @@ export function slider(slide, wrapper, field, indicator) {
     if (isAnimating) return;
 
     if (e.deltaY > 0) {
-      slideUp();
+      slideDown();
     }
 
     if (e.deltaY < 0) {
-      slideDown();
+      slideUp();
     }
   });
 }
