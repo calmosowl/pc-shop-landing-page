@@ -1,10 +1,6 @@
 .button-group {
   display: flex;
-  gap: 14px;
-
-  &.has-gap {
-    gap: 24px;
-  }
+  gap: 16px;
 
   .button, .icon-button {
     flex: 1;
