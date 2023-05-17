@@ -1,0 +1,44 @@
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 306px;
+  padding: 16px 0;
+  border-radius: 16px;
+  background-color: var(--grey-base-color);
+}
+
+.shop-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 21px 21px;
+}
+
+.old-price, .description {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-bottom: 4px;
+}
+
+.description {
+  margin-top: 4px;
+}
+
+.shop-card-body, .shop-card-footer {
+  padding: 0 16px;
+}
+
+.shop-card-body {
+  margin-top: auto;
+}
+
+.shop-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
