@@ -32,3 +32,14 @@
   line-height: 1.25rem;
   color: var(--white-base-color);
 }
+
+@media (max-width: 1200px) {
+  .default-dl, .default-dl-body {
+    gap: 8px;
+  }
+
+  .default-dl-header {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+}

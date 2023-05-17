@@ -102,3 +102,28 @@
   position: absolute;
   bottom: 0;
 }
+
+@media (max-width: 1200px) {
+  .hero-slide {
+    justify-content: center;
+  }
+
+  .hero-slide-title {
+    display: none;
+  }
+
+  .hero-slider-hint {
+    bottom: -20px;
+  }
+
+  .hero-slider-indicator {
+    margin-right: 20px;
+  }
+
+  .hero-slide-image-legend {
+    .button-group {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+}

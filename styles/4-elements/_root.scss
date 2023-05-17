@@ -17,3 +17,9 @@
 :root {
   --layout-padding-x: 72px;
 }
+
+@media (max-width: 992px) {
+  :root {
+    --layout-padding-x: 24px;
+  }
+}
