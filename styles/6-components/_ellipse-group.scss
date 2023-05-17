@@ -4,7 +4,7 @@
   height: 100%;
   max-width: 510px;
   max-height: 510px;
-  right: 0;
+  right: 100px;
   filter: blur(82px);
 
   .ellipse {
@@ -27,5 +27,11 @@
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .ellipse-group {
+    right: 10px;
   }
 }

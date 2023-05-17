@@ -499,11 +499,14 @@ a:hover {
   position: relative;
   display: flex;
   justify-content: center;
+  height: 100%;
   padding-bottom: 46px;
   flex-basis: 55%;
 }
 .hero-slide-image img {
   width: 240px;
+  -o-object-fit: contain;
+     object-fit: contain;
   z-index: 2;
 }
 
@@ -569,7 +572,7 @@ a:hover {
   height: 100%;
   max-width: 510px;
   max-height: 510px;
-  right: 0;
+  right: 100px;
   filter: blur(82px);
 }
 .ellipse-group .ellipse {
@@ -592,6 +595,11 @@ a:hover {
   left: 0;
 }
 
+@media (max-width: 576px) {
+  .ellipse-group {
+    right: 10px;
+  }
+}
 .card-blurred {
   padding: 24px;
   -webkit-backdrop-filter: blur(12px);
