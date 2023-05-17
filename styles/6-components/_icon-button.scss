@@ -4,4 +4,9 @@
   height: 48px;
   background-color: transparent;
   border: 0 none;
+  border-radius: 12px;
+
+  &.is-dark {
+    background-color: var(--dark-base-color);
+  }
 }
