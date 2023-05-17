@@ -10,8 +10,6 @@ export function slider(slide, wrapper, field, indicator) {
   let slideIndex = 1,
       slidesInnerOffset = 0;
 
-  // const getOnlyNumber = string => +string.replace(/\D/g, '');
-
   function setActiveClass(array, index) {
     array.forEach(item => item.classList.remove('is-active'));
     array[index - 1].classList.add('is-active');
